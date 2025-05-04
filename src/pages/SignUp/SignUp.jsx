@@ -58,7 +58,7 @@ function SignUp() {
                 <h3>Kayıt Ol</h3>
                 <span>Bir hesabın var mı? <a href="/signin"><b>Giriş Yap</b></a></span>
 
-                {message && <Alert variant="success" className='mb-0' style={{fontSize: '0.8rem'}}><i class="bi bi-check-circle-fill me-2"></i>{message}</Alert>}
+                {message && <Alert variant="success" className='mb-0' style={{fontSize: '0.8rem'}}><i className="bi bi-check-circle-fill me-2"></i>{message}</Alert>}
 
                 {errors.length > 0 && (
                     <div>
@@ -73,20 +73,20 @@ function SignUp() {
                 <Form className='d-flex flex-column gap-3 mt-3' onSubmit={handleSubmit}>
                     <Form.Group>
                         <Form.Label>E-posta</Form.Label>
-                        <Form.Control type='email' size='sm' value={email} onChange={(e) => setEmail(e.target.value)}/>
+                        <Form.Control id='email' type='email' size='sm' value={email} onChange={(e) => setEmail(e.target.value)}/>
                     </Form.Group>
                     <Form.Group>
                         <Form.Label>Ad Soyad</Form.Label>
-                        <Form.Control type='text' size='sm' value={fullName} onChange={(e) => setFullName(e.target.value)}/>
+                        <Form.Control id='fullName' type='text' size='sm' value={fullName} onChange={(e) => setFullName(e.target.value)}/>
                     </Form.Group>
                     <Form.Group>
                         <Form.Label>Doğum Tarihi</Form.Label>
-                        <Form.Control type='date' size='sm' value={birthDate} onChange={(e) => setBirthDate(e.target.value)}/>
+                        <Form.Control id='birthDate' type='date' size='sm' value={birthDate} onChange={(e) => setBirthDate(e.target.value)}/>
                     </Form.Group>
                     <Form.Group>
                         <Form.Label>Şifre</Form.Label>
                         <InputGroup>
-                            <Form.Control type={showPassword ? 'text' : 'password'} size='sm' value={password} onChange={(e) => setPassword(e.target.value)}/>
+                            <Form.Control id='password' type={showPassword ? 'text' : 'password'} size='sm' value={password} onChange={(e) => setPassword(e.target.value)}/>
                             <InputGroup.Text>
                                 <i 
                                     className={`bi ${showPassword ? 'bi-eye-fill' : 'bi-eye-slash-fill'}`} 
@@ -98,7 +98,7 @@ function SignUp() {
                     <Form.Group>
                         <Form.Label>Şifre Tekrar</Form.Label>
                         <InputGroup>
-                            <Form.Control type={showPassword ? 'text' : 'password'} size='sm' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
+                            <Form.Control id='confirmPassword' type={showPassword ? 'text' : 'password'} size='sm' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
                             <InputGroup.Text>
                                 <i 
                                     className={`bi ${showPassword ? 'bi-eye-fill' : 'bi-eye-slash-fill'}`} 
@@ -107,7 +107,7 @@ function SignUp() {
                             </InputGroup.Text>
                         </InputGroup>
                     </Form.Group>
-                    <Button type='submit'>Kayıt Ol</Button>
+                    <Button type='submit' id='registerButton'>Kayıt Ol</Button>
                 </Form>
             </div>
         </div>

@@ -1,0 +1,53 @@
+.home-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.home-page .last-seven-days,
+.home-page .recommendation {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.home-page .last-seven-days span,
+.home-page .recommendation span {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-bottom: 1%;
+}
+
+.home-page .last-seven-days table tbody tr td {
+    font-weight: 400 !important;
+    font-size: 0.9rem;
+}
+
+.home-page .recommendation .note {
+    background-color: #fff; 
+    width: 750px; 
+    max-width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    background-color: honeydew;
+}
+  
+.home-page .recommendation .note-content {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0;
+    text-align: justify; 
+  }
+  
+  .home-page .recommendation .note::before {
+    content: "📌";
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 1.5rem;
+} 

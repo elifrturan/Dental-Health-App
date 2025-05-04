@@ -1,0 +1,107 @@
+.health-page .last-seven-days,
+.health-page .add-record,
+.health-page .recommendation {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.health-page .last-seven-days span,
+.health-page .add-record span,
+.health-page .recommendation span {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-bottom: 1%;
+}
+
+.health-page .last-seven-days button {
+    background: none;
+    color: var(--theme-color);
+    font-size: 0.9rem;
+    border: 1px solid var(--theme-color);
+    padding: 4px 18px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.health-page .last-seven-days button:hover,
+.health-page .goals table tbody tr td  button:hover {
+    transform: scale(1.05);
+}
+
+.health-page .last-seven-days table tbody tr td {
+    font-weight: 400 !important;
+    font-size: 0.9rem;
+}
+
+.health-page .add-record {
+    border: 1px dashed #ddd;
+    padding: 2% 1%;
+    border-radius: 8px;
+}
+
+.health-page form .date-time,
+.health-page form .record-duration {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.health-page form .date-time div {
+    flex: 1;
+}
+
+.health-page form .form-check {
+    font-size: 0.9rem !important;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.health-page .container form button,
+.note-modal button {
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    font-size: 0.9rem;
+    width: 40%;
+    transition: all 0.3s ease-in-out;
+}
+
+.health-page .container form button:hover,
+.note-modal button:hover {
+    transform: scale(1.05);
+}
+
+.health-page .recommendation .note {
+    background-color: #fff; 
+    width: 750px; 
+    max-width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    background-color: honeydew;
+}
+  
+.health-page .recommendation .note-content {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0;
+    text-align: justify; 
+}
+  
+.health-page .recommendation .note::before {
+    content: "📌";
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 1.5rem;
+} 
+
+.note-detail-modal img {
+    max-width: 100%;
+    height: auto;
+}

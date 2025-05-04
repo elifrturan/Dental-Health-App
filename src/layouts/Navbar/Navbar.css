@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #f1f1f1;
+    padding: 1% 4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.navbar .navbar-brand h5 {
+    color: var(--theme-color);
+    font-weight: 600;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar .links a {
+    text-decoration: none;
+}
+
+.navbar .links a:hover {
+    color: #000 !important;
+}
+
+
+.logout span {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}

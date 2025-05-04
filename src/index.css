@@ -28,11 +28,11 @@ body .form-control, .form-label{
   opacity: 0.75;
   cursor: text;
   background-color: transparent;
-  color: var(--white-color) !important;
+  color: #000 !important;
 }
 
 ::placeholder {
-  color: var(--white-color) !important;
+  color: #000 !important;
   opacity: 0.5 !important;
   font-size: 0.9rem !important;
 }
@@ -43,4 +43,35 @@ body .form-control, .form-label{
   box-shadow: none;
   background: none;
   border: 1px solid #aaa;
+}
+
+.modal-content {
+  border: 1px solid #000 !important;
+}
+
+.modal-content .modal-header .modal-title{
+  font-size: 1rem;
+}
+
+.modal-content .modal-body {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.btn-close {
+  font-size: 0.6rem;
+}
+
+.modal-content .modal-footer button {
+  font-size: 0.9rem;
+  background: none;
+  color: #000;
+  border: 1px solid #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-content .modal-footer button:hover {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.5;
 }

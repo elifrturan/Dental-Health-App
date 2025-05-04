@@ -1,0 +1,42 @@
+.health-page .goals,
+.health-page .add-goal {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.health-page .goals span,
+.health-page .add-goal span {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-bottom: 1%;
+}
+
+.health-page .goals table tbody tr td  button:hover {
+    transform: scale(1.05);
+}
+
+.health-page .goals table tbody tr td {
+    font-weight: 400 !important;
+    font-size: 0.9rem;
+}
+
+.health-page .goals table tbody tr td button {
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 4px 16px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.health-page .add-goal {
+    border: 1px dashed #ddd;
+    padding: 2% 1%;
+    border-radius: 8px;
+}
+
+.health-page form .goal-period {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}

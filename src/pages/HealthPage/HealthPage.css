@@ -1,0 +1,40 @@
+.health-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tabs {
+    display: flex;
+    margin-top: 5%;
+    border: none !important;
+}
+
+.tabs .nav-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background: transparent !important;
+    border: none !important;
+    padding: 1% 0;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.tabs .nav-link {
+    flex: 1;
+    border-radius: 0;
+    border: none !important;
+    background: #eee !important;
+    cursor: pointer;
+    padding: 2%;
+    color: #000;
+    transition: all 0.3s ease-out;
+}
+
+.tabs .nav-link.active{
+    flex: 1;
+    border-bottom: 3px solid var(--theme-color) !important; 
+    color: var(--theme-color) !important;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.profile-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.profile-page .container span {
+    font-size: 0.9rem;
+    color: var(--theme-color);
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 0.8rem !important;
+}
+
+.profile-page .container form button,
+.change-password-modal .modal-body form button  {
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    font-size: 0.9rem;
+    width: 40%;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-page .container form button:hover,
+.change-password-modal .modal-body form button:hover {
+    transform: scale(1.05);
+}
