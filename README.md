@@ -9,32 +9,26 @@ This platform is a web application that allows users to track their oral and den
 - 💡 Get daily oral health tips  
 - 👤 Create and update user profiles
 
-- ## 📌 Installation
+## 📌 Installation
 
-Clone the repository:
+- Clone the repository:
 
-```bash
 git clone https://gitlab.com/elifrturan/healthapp](https://github.com/elifrturan/Dental-Health-App
 
-Navigate to the project directory:
+- Navigate to the project directory:
 
-```bash
 cd agiz-dis-sagligi-platformu
 
-Install dependencies:
+- Install dependencies:
 
-```bash
 npm install
 
-Run the application:
+- Run the application:
 
-```bash
 npm run dev
 
 ## 🌱 Development Guidelines
 
-✅ Code Style: Follows Clean Code principles
-
-🌿 Branching: Use feature-name format for feature branches
-
-🔁 Pull Requests: Submit PRs to the main branch for all changes
+- ✅ Code Style: Follows Clean Code principles
+- 🌿 Branching: Use feature-name format for feature branches
+- 🔁 Pull Requests: Submit PRs to the main branch for all changes
