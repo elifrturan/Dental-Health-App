@@ -1,8 +1,40 @@
-# React + Vite
+# Oral and Dental Health Tracking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This platform is a web application that allows users to track their oral and dental health habits/goals, add and remove new goals, update their habits and personal information, and receive health-related suggestions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 Track oral and dental health habits  
+- ➕ Add and edit personal goals  
+- 💡 Get daily oral health tips  
+- 👤 Create and update user profiles
+
+- ## 📌 Installation
+
+Clone the repository:
+
+```bash
+git clone https://gitlab.com/elifrturan/healthapp](https://github.com/elifrturan/Dental-Health-App
+
+Navigate to the project directory:
+
+```bash
+cd agiz-dis-sagligi-platformu
+
+Install dependencies:
+
+```bash
+npm install
+
+Run the application:
+
+```bash
+npm run dev
+
+## 🌱 Development Guidelines
+
+✅ Code Style: Follows Clean Code principles
+
+🌿 Branching: Use feature-name format for feature branches
+
+🔁 Pull Requests: Submit PRs to the main branch for all changes
